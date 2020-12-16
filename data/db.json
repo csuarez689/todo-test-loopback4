@@ -1,16 +1,21 @@
 {
   "ids": {
-    "Todo": 8
+    "Todo": 7,
+    "TodoList": 4
   },
   "models": {
     "Todo": {
-      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1}",
-      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
-      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
-      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
-      "5": "{\"title\":\"get milk\",\"id\":5,\"desc\":\"luckystrikes 20 convertible\"}",
-      "6": "{\"title\":\"get cigarretes\",\"isComplete\":false,\"id\":6}",
-      "7": "{\"title\":\"test geo\",\"isComplete\":false,\"remindAtAddress\":\"240 Glenwood Rd. Melbourne\",\"remindAtGeo\":\"28.175259,-80.5938\",\"id\":7}"
+      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"todoListId\":1,\"id\":1}",
+      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"todoListId\":1,\"id\":2}",
+      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"todoListId\":2,\"id\":3}",
+      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"todoListId\":1,\"id\":4}",
+      "5": "{\"title\":\"paint the living\",\"desc\":\"must be yellow\",\"isComplete\":false,\"todoListId\":3,\"id\":5}",
+      "6": "{\"title\":\"send to fuck meli jobs\",\"desc\":\"hack her systems\",\"isComplete\":false,\"todoListId\":3,\"id\":6}"
+    },
+    "TodoList": {
+      "1": "{\"title\":\"Sith lord's check list\",\"color\":\"blue\",\"id\":1}",
+      "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}",
+      "3": "{\"title\":\"home\",\"color\":\"green\",\"id\":3}"
     }
   }
 }
